@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
+import 'pages/camera.dart';
 import 'pages/cameraPage.dart';
-import 'pages/homePage.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home:  CameraPage(),
     );
   }
 }
